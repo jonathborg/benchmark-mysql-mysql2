@@ -67,6 +67,7 @@ const data = Array(1000)
         ]);
 
 (async () => {
+    await mysql.query('TRUNCATE TABLE benchmark.person');
 
     console.log('------- MySQL -------'.yellow.bold);
     const mysqlInsert = () => benchmark('inserted 1000 rows', () => {
