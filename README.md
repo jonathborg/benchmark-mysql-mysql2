@@ -8,5 +8,5 @@ yarn start
 
 ## Disadvantages
 
-- MySQL 2 doesn't build-in types or @types.
+- MySQL 2 doesn't have build-in types or @types.
 - MYSQL is callback based.
